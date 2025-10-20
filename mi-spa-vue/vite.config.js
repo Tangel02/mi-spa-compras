@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// 👇 Agrega este base si tu repo se llama vue-api-restcountries
 export default defineConfig({
-  base: '/vue-api-restcountries/',
+  base: '/<REPO-NAME>/', // <- cambiar por tu repo si publicas en Pages
   plugins: [vue()],
 })
