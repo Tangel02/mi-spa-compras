@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/mi-spa-compras/',  // 👈 debe ser EXACTAMENTE igual que tu repo
   plugins: [vue()],
 })
